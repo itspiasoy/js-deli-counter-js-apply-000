@@ -1,6 +1,7 @@
 // tell customer to say what number they are, keep track of numbers & increment then
 //identigy by number
 var katzDeliLine = [];
+
 function takeANumber(katzDeliLine){
   var number = number++;
   
