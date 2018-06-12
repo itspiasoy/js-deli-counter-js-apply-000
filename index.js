@@ -1,6 +1,9 @@
 // tell customer to say what number they are, keep track of numbers & increment then
+//identigy by number
 var katzDeliLine = [];
-function takeANumber(katzDeliLine, currentName){
+function takeANumber(katzDeliLine){
+  
+  var number = katzDeliLine.length
   katzDeliLine.push(currentName);
   return(`Welcome, ${currentName}. You are number ${katzDeliLine.length} in line.`)
 }
