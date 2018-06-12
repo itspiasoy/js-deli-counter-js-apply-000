@@ -6,14 +6,14 @@ function takeANumber(katzDeliLine, currentName){
 }
 
 function nowServing(katzDeliLine){
-  console.log('string of a' katzDeliLine.length);
+  console.log('string of a', katzDeliLine.length);
  if (katzDeliLine.length === 0){
    return ('There is nobody waiting to be served!')
  }
  else {
    for (var i = 0; i < katzDeliLine.length; i++){
      var currentPerson = katzDeliLine.shift();
-     console.log(i);
+     console.log('string of b', i);
      return (`Currently serving ${currentPerson}.`)
   }
     
