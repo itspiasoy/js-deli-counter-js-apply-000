@@ -2,7 +2,6 @@
 //identigy by number
 var katzDeliLine = [];
 function takeANumber(katzDeliLine){
-  
   var number = number++;
   katzDeliLine.push(currentName);
   return(`Welcome, ${currentName}. You are number ${katzDeliLine.length} in line.`)
