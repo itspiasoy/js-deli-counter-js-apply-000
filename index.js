@@ -1,4 +1,4 @@
-
+// tell customer to say what number they are, keep track of numbers & increment then
 var katzDeliLine = [];
 function takeANumber(katzDeliLine, currentName){
   katzDeliLine.push(currentName);
